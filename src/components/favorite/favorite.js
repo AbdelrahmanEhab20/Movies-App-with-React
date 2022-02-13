@@ -5,7 +5,7 @@ import './favorite.css'
 import { addToFavorite, removeFromFavorite } from '../../store/actions/actions'
 import { AiOutlineCloseCircle, RiDeleteBin2Line } from "react-icons/ai"; //AiOutlineStar
 
-export default function favorite() {
+export default function Favorite() {
 
     const dispatch = useDispatch();
     const getFavorits = useSelector((state) => state.favorites);

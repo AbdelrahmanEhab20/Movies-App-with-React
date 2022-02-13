@@ -8,7 +8,7 @@ import OneMovie from "./components/movies/movies";
 import Details from "./components/details/detail";
 import notfound from './components/notfound/notfound';
 import Specific from './components/specificDetail/specific';
-import favorite from './components/favorite/favorite'
+import Favorite from './components/favorite/favorite'
 import { LanguageContext } from "./context/languageContext";
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
           <Route path={"/OneMovie/:id"} exact component={OneMovie}></Route>
           <Route path={"/details"} exact component={Details}></Route>
           <Route path={"/Specific"} exact component={Specific}></Route>
-          <Route path={"/favorites"} exact component={favorite}></Route>
+          <Route path={"/favorites"} exact component={Favorite}></Route>
           <Route path={"*"} exact component={notfound}></Route>
         </Switch>
       </BrowserRouter>
