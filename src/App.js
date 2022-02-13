@@ -10,6 +10,7 @@ import notfound from './components/notfound/notfound';
 import Specific from './components/specificDetail/specific';
 import favorite from './components/favorite/favorite'
 import { LanguageContext } from "./context/languageContext";
+
 function App() {
   const [contextLanguage, setContextLanguage] = useState('en-US');
   return (
